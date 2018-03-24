@@ -1,11 +1,11 @@
 import { combineReducers } from 'redux';
-import BooksReducer from './reducer_books'; 
+import BooksReducer from './reducer_books';
 
 const rootReducer = combineReducers({
-	books: BooksReducer 
+	books: BooksReducer
 });
 
 export default rootReducer;
 
-// KEY === books: 
-// VALUE === BooksReducer 
+// KEY === books
+// VALUE === BooksReducer
