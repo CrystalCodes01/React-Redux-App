@@ -1,0 +1,33 @@
+.welcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: purple;
+  padding-top: 20px;
+}
+
+.list-group-item {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: .75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid purple;
+  font-size: 22px;
+}
+
+.details {
+  font-size: 22px;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  padding-top: 100px;
+}
