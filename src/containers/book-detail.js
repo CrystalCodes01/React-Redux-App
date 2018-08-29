@@ -10,9 +10,9 @@ class BookDetail extends Component {
     return (
       <div className="col-lg-12">
         <h3 className="col-lg-12 welcome">Detail:</h3>
-        <div className="col-lg-12 details">Title: {this.props.book.title}</div>
-        <div className="col-lg-12 details">Pages: {this.props.book.pages}</div>
-        <div className="col-lg-12 details">Description: {this.props.book.description}</div>
+        <h3 className="col-lg-12 details">Title: {this.props.book.title}</h3>
+        <h3 className="col-lg-12 details">Pages: {this.props.book.pages}</h3>
+        <div className="col-lg-12 details"><b>Description:</b> <br /> {this.props.book.description}</div>
       </div>
     );
   }
