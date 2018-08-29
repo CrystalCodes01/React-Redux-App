@@ -40,8 +40,7 @@ function mapDispatchToProps(dispatch) {
 	return bindActionCreators({ selectBook: selectBook }, dispatch)
 }
 
-// Promote Booklist from Component to container - informing on dispatch method, selectBook
-// Make it available as a prop
+// Promoted Booklist from Component to container - informing on dispatch method 'selectBook' Making it available as a prop
 export default connect(mapStateToProps, mapDispatchToProps)(Booklist);
 
 // {this.renderList()} <-- calling helper function
